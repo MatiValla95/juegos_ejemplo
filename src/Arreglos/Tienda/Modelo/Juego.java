@@ -79,6 +79,7 @@ public class Juego {
         }
         return false;
     }
+    // == en objetos compara si son iguales las direcciones de memoria, en cambio con  equals compara el texto de las variables y ver si es igual
 
     @Override
     public String toString() {
